@@ -18,7 +18,7 @@ function App() {
 
   const weatherCodeRef = useRef(null)
 
-  const API_KEY = 'a39684f9c8821a99a9e4346e0a28d647'
+  const API_KEY = import.meta.env.VITE_OPENWEATHER_API_KEY
 
   async function handleSearch(city, customUnit) {
     const activeUnit = customUnit || unit
@@ -113,7 +113,7 @@ function toggleUnit() {
       <WeatherBackground weatherCode={weatherCodeRef.current} theme={theme} />
       <div className="app-header">
         <img
-          src="/logo_skylo.png"
+          src="/skylo/logo_skylo.png"
           alt="Skylo"
           className="logo"
           onClick={() => { setWeather(null); setForecast(null); setError(null); }}
