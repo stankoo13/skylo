@@ -7,8 +7,8 @@ function SearchBar({ onSearch, onSearchByCoords }) {
   const [activeIndex, setActiveIndex] = useState(-1)
   const wrapperRef = useRef(null)
   const skipFetchRef = useRef(false)
+  const API_KEY = import.meta.env.VITE_OPENWEATHER_API_KEY
 
-  const API_KEY = 'a39684f9c8821a99a9e4346e0a28d647'
 
   useEffect(() => {
     const handleClickOutside = (e) => {
