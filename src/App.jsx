@@ -113,7 +113,7 @@ function toggleUnit() {
       <WeatherBackground weatherCode={weatherCodeRef.current} theme={theme} />
       <div className="app-header">
         <img
-          src="/skylo/logo_skylo.png"
+          src="/logo_skylo.png"
           alt="Skylo"
           className="logo"
           onClick={() => { setWeather(null); setForecast(null); setError(null); }}
