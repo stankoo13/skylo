@@ -1,16 +1,46 @@
-# React + Vite
+# Skylo — Weather Forecast App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Skylo is a responsive weather application built with React and Vite. It provides current weather conditions and forecasts through a clean interface with light and dark themes.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Search for weather by city
+- Popular cities overview
+- Current weather conditions and temperature
+- Detailed weather information, including feels-like temperature, wind, humidity, pressure, visibility, and cloud cover
+- Hourly weather forecast
+- 7-day weather forecast
+- Celsius and Fahrenheit temperature units
+- Light and dark themes
+- Responsive user interface
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React
+- Vite
+- JavaScript
+- CSS
+- React Icons
 
-## Expanding the ESLint configuration
+## Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+To run the project locally:
+
+1. Clone this repository.
+2. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+3. Start the development server:
+
+   ```bash
+   npm run dev
+   ```
+
+4. Open the local URL displayed in your terminal.
+
+## Project Status
+
+This project currently runs locally and is not yet deployed publicly.
